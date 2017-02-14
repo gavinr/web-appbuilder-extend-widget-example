@@ -7,12 +7,12 @@ import GeometryEngine from 'esri/geometry/geometryEngine';
 import webMercatorUtils from 'esri/geometry/webMercatorUtils';
 
 // Include the OOTB Widget's styles:
-import css from 'xstyle/css!./Edit/css/style.css';
+import css from 'xstyle/css!widgets/Edit/css/style.css';
 // Include the OOTB Widget's NLS strings:
-import nls from 'dojo/i18n!./Edit/nls/strings';
+import nls from 'dojo/i18n!widgets/Edit/nls/strings';
 
 // include a copy of the OOTB Editor widget (but never touch these files!):
-import EditorWidget from './Edit/Widget';
+import EditorWidget from 'widgets/Edit/Widget';
 
 export default declare([EditorWidget], {
 
