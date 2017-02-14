@@ -1,0 +1,25 @@
+{
+  "name": "CustomEditor",
+  "label": "Custom Editor",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "0.0.1",
+  "wabVersion": "2.3",
+  "author": "Gavin Rehkemper",
+  "description": "The OOTB Editor widget, but gives you a hook to call a different web service after an edit is made.",
+  "copyright": "",
+  "license": "ISC",
+  "properties": {
+    "inPanel": true,
+    "hasLocale": false,
+    "hasStyle": false,
+    "hasConfig": true,
+    "hasUIFile": false,
+    "hasSettingPage": false,
+    "hasSettingUIFile": false,
+    "hasSettingLocale": false,
+    "hasSettingStyle": false,
+    "IsController": false
+  }
+}
